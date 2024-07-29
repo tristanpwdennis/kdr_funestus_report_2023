@@ -1,0 +1,16 @@
+npts 40 40 40                        # num.grid points in xyz
+gridfld AGAP004707-RD-995F.maps.fld  # grid_data_file
+spacing 0.375                        # spacing(A)
+receptor_types A C NA OA N SA HD     # receptor atom types
+ligand_types A NA C Br OA            # ligand atom types
+receptor AGAP004707-RD-995F.pdbqt    # macromolecule
+gridcenter -0.000 -0.000 -0.000      # xyz-coordinates or auto
+smooth 0.5                           # store minimum energy w/in rad(A)
+map AGAP004707-RD-995F.A.map         # atom-specific affinity map
+map AGAP004707-RD-995F.NA.map        # atom-specific affinity map
+map AGAP004707-RD-995F.C.map         # atom-specific affinity map
+map AGAP004707-RD-995F.Br.map        # atom-specific affinity map
+map AGAP004707-RD-995F.OA.map        # atom-specific affinity map
+elecmap AGAP004707-RD-995F.e.map     # electrostatic potential map
+dsolvmap AGAP004707-RD-995F.d.map              # desolvation potential map
+dielectric -0.1465                   # <0, AD4 distance-dep.diel;>0, constant
