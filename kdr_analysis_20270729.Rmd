@@ -1,8 +1,6 @@
 ---
 title: "kdr_analysis"
 output:
-  html_document: default
-  pdf_document: default
   output: rmarkdown::github_document
 date: "2024-07-29"
 ---
@@ -79,7 +77,7 @@ ggsave('~/Projects/kdr_funestus_report_2023/figures/map.tiff', plot=map, width =
 
 Now let's plot insecticide resistance phenotype. Read in bioassay data, model
 
-```{r pressure, echo=FALSE, fig.width=3, fig.height=5}
+```{r pressure, echo=FALSE, fig.width=6, fig.height=4}
 irphendat <- read.csv('~/Projects/kdr_funestus_report_2023/notebooks_scripts/bioassay.1.csv', sep=",", header=T, check.names = FALSE)
 
 irphendat$Insecticide<-as.factor(irphendat$Insecticide)
@@ -101,7 +99,7 @@ DDT.colors <- c(Kagera = "#1f78b4", Katavi = "#b2df8a",
                   Tanga ='#6a3d9a' )
 
 
-selected_items <- prediction_model3[prediction_model3$x %in% c("Deltamethrin", "Deltamethrin + PBO", 'DDT'),]
+selected_items <- prediction_model3[prediction_model3$x %in% c('DDT'),]
                                     
 bioassay.prediction <- ggplot(selected_items, aes(x = group, y = predicted, color = group)) +
   geom_boxplot(width = 0.6, position = position_dodge(0.8)) +
@@ -117,7 +115,7 @@ bioassay.prediction <- ggplot(selected_items, aes(x = group, y = predicted, colo
   facet_wrap('x', ncol = 1)+
   scale_color_manual(values = DDT.colors)+
   labs(color = "Region")+
-  scale_x_discrete(labels = NULL)+
+  #scale_x_discrete(labels = NULL)+
   theme(legend.position = "bottom", legend.direction = "horizontal")
 bioassay.prediction
 ######################################
