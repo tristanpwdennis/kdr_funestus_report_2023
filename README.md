@@ -14,6 +14,8 @@ The jupyter notebook contains:
 2. The code generating the raw data for the heatmaps (plotted in R as I prefer plotting heatmaps in R).
 3. The haplotype clustering dendrogram showing that the linked P976F/1842S haplotype is responsible for the weak sweep in Morogoro region.
 
+If you wish to replicate the analysis, clone this repo, and run the jupyter notebook first. Make sure [you are able to access malariagen_data](https://malariagen.github.io/vector-data/vobs/vobs-data-access.html). The notebook should run and download the data required to plot the rest of the analyses in the RMarkdown.
+
 Apologies for the two different plotting notebooks. I find myself using Python increasingly, but I am still a fan of R when it comes to statistics and heatmaps!
 
 Tristan Dennis, Aug 2024.
