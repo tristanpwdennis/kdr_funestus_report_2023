@@ -1,6 +1,6 @@
 This project was a big IR phenotype and genomic surveillance study in Tanzania. An. funestus were collected from across Tanzania, phenotyped for IR, and genome sequenced to identify selection at IR loci, and IR allele frequencies, as well as population structure and history. The IR phenotype surveillance data is published in [Joel's paper here](https://link.springer.com/article/10.1186/s13071-024-06315-4). These data showed that mosquitoes were resistant to DDT - strange, given DDT is an obsolete, banned, pesticide. 
 
-Genome sequencing data collected and analysed as part of this project showed evidence of weak selection at the _Vgsc_ locus, in samples from a single region in Tanzania. Further examination of the _Vgsc_ locus revealed that _knock-down resistance_, in the form of the L976F (995S/F in _An. gambiae_ and 1014F/S in _M. domestica_), had appeared in _An. funestus_ where, hitherto, IR had only emerged in the form of metabolic resistance through detoxification enzymes and others. _Kdr_ in _An. funestus_ appeared often in concert with another linked mutation, P1842S, and appeared as part of a weak selective sweep in Morogoro region. We found that _Kdr_ appeared to confer resistance to DDT, and not to other, more widely used vector control pesticides.
+Genome sequencing data collected and analysed as part of this project showed evidence of weak selection at the _Vgsc_ locus, in samples from a single region in Tanzania. Further examination of the _Vgsc_ locus revealed that _knock-down resistance_, in the form of the L976F (995S/F in _An. gambiae_ and 1014F/S in _M. domestica_), had appeared in _An. funestus_ where, hitherto, IR had only emerged in the form of metabolic resistance through detoxification enzymes and others. _Kdr_ in _An. funestus_ appeared often in concert with another linked mutation, P1842S, and appeared as part of a weak selective sweep in Morogoro region. We found that _Kdr_ appeared to confer resistance to DDT, and not to other, more widely used vector control pesticides. A range of plausible hypotheses for DDT emergence in _An. funestus_ present themselves, but one we found the most plausible was extensive DDT pollution across Tanzania, as well as unofficial use by farmers.
 
 This repository contains the code used to analyse the data generated in this analysis. The R-markdown contains:
 1. Map of sequenced samples.
@@ -17,5 +17,7 @@ The jupyter notebook contains:
 If you wish to replicate the analysis, clone this repo, and run the jupyter notebook first. Make sure [you are able to access malariagen_data](https://malariagen.github.io/vector-data/vobs/vobs-data-access.html). The notebook should run and download the data required to plot the rest of the analyses in the RMarkdown.
 
 Apologies for the two different plotting notebooks. I find myself using Python increasingly, but I am still a fan of R when it comes to statistics and heatmaps!
+
+The preprint of the article, recently accepted in _Molecular Ecology_ is [here](https://www.biorxiv.org/content/10.1101/2024.03.13.584754v2). 
 
 Tristan Dennis, Aug 2024.
