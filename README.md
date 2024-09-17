@@ -1,4 +1,4 @@
-Discovery of knock-down resistance in the major African malaria vector _Anopheles funestus_.
+## Discovery of knock-down resistance in the major African malaria vector _Anopheles funestus_.
 
 This project was a big IR phenotype and genomic surveillance study in Tanzania. An. funestus were collected from across Tanzania, phenotyped for IR, and genome sequenced to identify selection at IR loci, and IR allele frequencies, as well as population structure and history. The IR phenotype surveillance data is published in [Joel's paper here](https://link.springer.com/article/10.1186/s13071-024-06315-4). These data showed that mosquitoes were resistant to DDT - strange, given DDT is an obsolete, banned, pesticide. 
 
